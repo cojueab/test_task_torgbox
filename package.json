@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha --reporter spec",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
